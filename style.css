@@ -1,0 +1,81 @@
+header {
+    color: #ffffff;
+    background-color: #6d6565;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    color: #ffffff;
+    background-color: #292a4e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#info-personal,
+#habilidades {
+    margin: 20px;
+    padding: 20px;
+    border: 20px solid #ffffff;
+}
+
+#info-personal h2,
+#habilidades h2 {
+    font-size: 24px;
+    background-color: #c4ccf0;
+}
+
+#habilidades ul {
+    list-style-type: square;
+}
+
+footer {
+    background-color: #6d6565;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    header,
+    #info-personal,
+    #habilidades {
+        padding: 10px;
+    }
+
+    h1,
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    header,
+    #info-personal,
+    #habilidades {
+        padding: 20px;
+    }
+
+    h1,
+    h2 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+
+    header,
+    #info-personal,
+    #habilidades {
+        padding: 30px;
+    }
+
+    h1,
+    h2 {
+        font-size: 28px;
+    }
+}
